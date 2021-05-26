@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "RequestReview",
+  "description": "On GitHub PR, this extension helps to request reviews to regular members.",
+  "host_permissions": [
+    "https://github.com/ampnmn/RequestReview"
+  ],
+  "version": "0.0.0",
+  "icons": {
+    "48": "resources/images/icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "resources/images/icon.png"
+    },
+    "default_popup": "resources/popup.html"
+  },
+  "options_ui": {
+    "page": "resources/options.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "storage"
+  ]
+}
